@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Bu veri setini kullanırsanız lütfen aşağıdaki şekilde atıf yapın."
+title: "AltaySec Turkish LLM Prompt Injection Dataset"
+abstract: >
+  120 elle hazırlanmış Türkçe prompt injection payload'undan oluşan
+  seed dataset. AltayDuel agent-vs-agent arena gözlemlerinden çıkan
+  5 ana saldırı kalıbına ek olarak, Türkçe diline özgü 7 yan kategori
+  içerir (morfolojik baypas, nezaket eskalasyonu, kod karıştırma vs.).
+  OWASP LLM Top 10 (2025) eşlemeli.
+authors:
+  - family-names: Yurtsevenler
+    given-names: Fevzi Ege
+    affiliation: AltaySec
+    website: "https://altaysec.com.tr"
+keywords:
+  - prompt injection
+  - LLM security
+  - Turkish NLP
+  - red teaming
+  - KVKK compliance
+  - adversarial dataset
+  - AI safety
+version: "0.1"
+date-released: "2026-05-18"
+license: CC-BY-4.0
+repository: "https://huggingface.co/datasets/altaysec/turkish-llm-injection"
+url: "https://altaysec.com.tr/arastirmalar/altayduel-turkce-prompt-injection-dataset.html"
+type: dataset
